@@ -5,7 +5,9 @@ function App() {
 
   return (
     <>
-      <div>hi</div>
+      <Routes>
+        <Route path="/singup" element={<Registration/>} />
+      </Routes>
     </>
   )
 }
